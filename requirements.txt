@@ -8,3 +8,4 @@ tensorflow
 ipython
 ultralytics  # Optional: you can specify the version of ultralytics if needed, e.g., ultralytics==8.0.0
 scikit-learn # Optional: for additional machine learning utilities, if needed
+opencv-python # Optional: for image processing tasks, if needed
