@@ -4,3 +4,4 @@ pandas
 matplotlib
 torch
 roboflow
+tensorflow
