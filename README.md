@@ -1,5 +1,7 @@
 # Pineapple Training
 
+Short, practical Jupyter notebook workspace for training, experimentation, and reproducible analysis.
+
 This workspace contains the notebook `pineapple_training.ipynb`.
 
 ## Contents
