@@ -6,3 +6,4 @@ torch
 roboflow
 tensorflow
 ipython
+ultralytics  # Optional: you can specify the version of ultralytics if needed, e.g., ultralytics==8.0.0
