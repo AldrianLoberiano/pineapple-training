@@ -18,10 +18,10 @@ This workspace contains the notebook `pineapple_training.ipynb`.
 
 1. Open this folder in VS Code.
 2. Create and activate a Python environment.
-3. Install common notebook dependencies if needed:
+3. Install notebook dependencies:
 
 ```powershell
-pip install jupyter numpy pandas matplotlib
+pip install jupyter numpy pandas matplotlib roboflow
 ```
 
 4. Open the notebook and choose the correct kernel from your environment.
@@ -35,9 +35,15 @@ pip install jupyter numpy pandas matplotlib
 ## Recommended Workflow
 
 1. Run all import and setup cells first.
-2. Execute data loading and preprocessing cells.
+2. Download/load your dataset (Roboflow example is included in the notebook).
 3. Run training or analysis cells.
 4. Save outputs and notes directly in the notebook.
+
+## Model Options
+
+- Current example uses `version.download("yolov5")` in the notebook.
+- You can adapt the workflow to other model ecosystems such as TensorFlow, Keras, or PyTorch.
+- Keep preprocessing and label format consistent with your chosen model pipeline.
 
 ## Troubleshooting
 
@@ -49,3 +55,4 @@ pip install jupyter numpy pandas matplotlib
 
 - Keep experiments reproducible by setting random seeds where applicable.
 - If this project grows, consider adding a `requirements.txt` file for dependency tracking.
+- Replace placeholder values such as `YOUR_API_KEY` and project name before running the dataset download cell.
